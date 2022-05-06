@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Languages",
+    "list": ["python"]
+  },
+  {
+    "name": "AI & Data",
+    "list": []
+  },
+  {
+    "name": "Frontend",
+    "list": [
+      "bootstrap",
+      "html5",
+      "jekyll",
+      "scss",
+      "wordpress"
+    ]
+  },
+  {
+    "name": "Backend",
+    "list": [ 
+      "nodejs"
+    ]
+  },
+  {
+    "name": "Tools & Services",
+    "list": ["bash", "git", "linux", "vscode"]
+  }
+]

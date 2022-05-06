@@ -1,0 +1,23 @@
+{
+  "title": "🔥 linuxmobile NOTAS",
+  "url": "https://aprendiendoaprogramar.netlify.app",
+  "domain": ".app",
+  "description": "I failed my way to success!",
+  "feed": {
+    "subtitle": "I failed my way to success!",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://aprendiendoaprogramar.app"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://aprendiendoaprogramar.app/feed/feed.json"
+  },
+  "author": {
+    "name": "linuxmobile",
+    "twitterHandle": "linuxmobile",
+    "url": "https://aprendiendoaprogramar.netlify.app/"
+  },
+  "look4job": true,
+  "outdatedTime": 365
+}
