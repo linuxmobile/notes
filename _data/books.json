@@ -1,236 +1,132 @@
 [
   {
-    "title": "Series \"You don't know JS Yet\"",
-    "author": "Kyle Simpson",
-    "goodreads": "https://www.goodreads.com/book/show/30296087-you-don-t-know-js",
-    "reading": true
+    "title": "Tonikaku Kawaii",
+    "author": "Romance / Shounen",
+    "intro": "La comedia romántica sigue a un chico llamado Nasa quien conoce a la hermosa chica Tsukasa el día de su ingreso a la preparatoria, e inmediatamente se enamora de ella. Nasa le confiesa sus sentimientos, pero ella le responde que solo saldrá con él si se casan. Años después, cuando Nasa cumple 18 años, Tsukasa aparece de nuevo en su vida solicitándole el prometido matrimonio. Así comenzará su vida de recién casados.",
+    "goodreads": "https://tioanime.com/anime/tonikaku-kawaii"
   },
   {
-    "title": "Clean Code : A Handbook of Agile Software Craftsmanship",
-    "author": "Robert C. Martin",
-    "goodreads": "https://www.goodreads.com/book/show/3735293-clean-code",
-    "reading": true
+    "title": "Horimiya",
+    "author": "Romance / Shounen",
+    "intro": "Aunque admirada en la escuela por su amabilidad y destreza académica, la estudiante de preparatoria Kyouko Hori ha estado escondiendo otro lado de ella. Con sus padres a menudo fuera de casa debido al trabajo, Hori tiene que cuidar de su hermano menor y hacer las tareas del hogar, sin tener tiempo para socializar fuera de la escuela. Mientras tanto, Izumi Miyamura es visto como un inquietante otaku que usa anteojos. Sin embargo, en realidad es una persona amable e inepta para estudiar. Además, tiene nueve piercings escondidos detrás de su largo cabello, y un tatuaje a lo largo de su espalda y hombro izquierdo. Por pura casualidad, Hori y Miyamura se cruzan fuera de la escuela, ninguno luciendo como el otro lo esperaría. Estos polos aparentemente opuestos se convierten en amigos, compartiendo un lado que nunca le han mostrado a nadie.",
+    "goodreads": "https://tioanime.com/anime/horimiya",
+    "mychoice":1
   },
   {
-    "title": "The Miracles of the Namiya General Store",
-    "author": "Keigo Higashino",
-    "goodreads": "https://www.goodreads.com/review/show/2429857630"
+    "title": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+    "author": "Ecchi / Harem / Romance",
+    "goodreads": "https://tioanime.com/anime/kawaikereba-hentai-demo-suki-ni-natte-kuremasu-ka"
   },
   {
-    "title": "Naoko",
-    "author": "Keigo Higashino",
-    "goodreads": "https://www.goodreads.com/review/show/4309194096",
+    "title": "Bokutachi wa Benkyou ga Dekinai",
+    "author": "Romance / Harem / Shounen",
+    "goodreads": "https://tioanime.com/anime/bokutachi-wa-benkyou-ga-dekinai"
+  },
+  {
+    "title": "Tenki no Ko",
+    "author": "Romance / Drama",
+    "goodreads": "https://tioanime.com/anime/tenki-no-ko",
+    "mychoice":1
+  },
+  {
+    "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai",
+    "mychoice":1
+  },
+  {
+    "title": "Gotoubun no Hanayome",
+    "author": "Romance / Harem / Shounen",
+    "goodreads": "https://tioanime.com/anime/gotoubun-no-hanayome",
+    "mychoice":1
+  },
+  {
+    "title": "Domestic na Kanojo",
+    "author": "Shounen / Romance",
+    "goodreads": "https://tioanime.com/anime/domestic-na-kanojo"
+  },
+  {
+    "title": "Tada-kun wa Koi wo Shinai",
+    "author": "Romance / Drama",
+    "goodreads": "https://tioanime.com/anime/tadakun-wa-koi-wo-shinai"
+  },
+  {
+    "title": "3D Kanojo: Real Girl",
+    "author": "Shoujo / Romance",
+    "goodreads": "https://tioanime.com/anime/3d-kanojo-real-girl",
+    "mychoice":1
+  },
+  {
+    "title": "Koi to Uso",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/koi-to-uso"
+  },
+  {
+    "title": "Gamers!",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/gamers"
+  },
+  {
+    "title": "Imouto sae Ireba Ii",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/imouto-sae-ireba-ii"
+  },
+  {
+    "title": "Itsudatte Bokura no Koi wa 10 cm Datta",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/itsudatte-bokura-no-koi-wa-10-cm-datta"
+  },
+  {
+    "title": "Citrus",
+    "author": "Yuri / Romance",
+    "goodreads": "https://tioanime.com/anime/citrus"
+  },
+  {
+    "title": "Fukumenkei Noise",
+    "intro":"Nino Arisugawa, una chica que adora cantar, experimenta por primera vez el dolor de tener que despedirse de su compañero de la infancia, Momo, que se muda. Después de la partida de Momo y tras hacerse amiga de Yuzu, un compositor, ¡Nino tiene que volver a experimentar otra triste separación! Con la música como única conexión y enlace, ¿cómo acabará este amor no correspondido? Como los dos chicos le prometieron que se volverían a reunir gracias a su canto, Nino se aferra a esa esperanza y sigue intentando que su voz les llegue. Ya en el instituto, Nino vuelve a reunirse por casualidad con Yuzu, pero anhela ver a Momo de nuevo…",
+    "author": "Shoujo / Romance",
+    "goodreads": "https://tioanime.com/anime/fukumenkei-noise"
+  },
+  {
+    "title": "Kimi no Na wa",
+    "intro":"Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
+    "author": "Romance",
+    "goodreads": "https://tioanime.com/anime/kimi-no-na-wa",
+    "mychoice":1
+  },
+  {
+    "title": "Saenai Heroine no Sodatekata",
+    "author": "Ecchi / Harem / Romance",
+    "goodreads": "https://tioanime.com/anime/saenai-heroin-no-sodatekata",
     "mychoice": 1
   },
   {
-    "title": "The Devotion of Suspect X (Detective Galileo #3)",
-    "author": "Keigo Higashino",
-    "goodreads": "https://www.goodreads.com/review/show/4296678039?book_show_action=false&from_review_page=1"
-  },
-
-  {
-    "title": "Freakonomics",
-    "author": "Steven D. Levitt, Stephen J. Dubner",
-    "goodreads": "https://www.goodreads.com/book/show/12134644-kinh-t-h-c-h-i-h-c"
+    "title": "Tonari no Kaibutsu-kun",
+    "intro":"Shizuku Mizutani es una chica a la que no le interesa nada aparte de sus estudios y sus planes de futuro. Haru Yoshida es un chico que está siempre ausente y al que cuando un día Shizuku le toque llevarle los deberes a su casa, se creerá que ella quiere ser su amiga. Por cosas de la vida, ella descubre que él no es tan malo como le pintan en el instituto y acabará siendo más amable con él? hasta que él decide declararle su amor.",
+    "author": "Shoujo / Romance",
+    "goodreads": "https://tioanime.com/anime/tonari-no-kaibutsu-kun"
   },
   {
-    "title": "Series of detective books",
-    "author": "Zijin Chen",
-    "goodreads": "https://www.goodreads.com/author/show/15009264.Zijin_Chen",
-    "intro": "(Vietnamese version) Người truy tìm dấu vết, Tội lỗi không chứng cứ, Vụ trả thù hoàn hảo, Đứa trẻ hư, Đêm trường tâm tối, Mưu sát, Người phát ngôn của thần chết."
+    "title": "Sword Art Online",
+    "author": "Acción / Fantasía",
+    "goodreads": "https://tioanime.com/anime/sword-art-online"
   },
   {
-    "title": "Factfulness: Ten Reasons We're Wrong About the World – and Why Things Are Better Than You Think",
-    "author": "Hans Rosling, Ola Rosling, Anna Rosling Rönnlund",
-    "goodreads": "https://www.goodreads.com/book/show/34890015-factfulness"
+    "title": "Midara na Ao-chan wa Benkyou ga Dekinai",
+    "intro":"Ao era una niña inocente que en el jardín de infancia contaba cómo su padre, un famoso autor de novelas eróticas, había elegido su nombre: la 'A' por 'apple' y la 'O' por 'orgy' (orgía). Ahora, diez años después, todavía se avergüenza de haber contado eso cuando era una niña, así que se esfuerza por entrar a una universidad de élite y poder alejarse de su padre de una vez por todas. No puede perder el tiempo con tonterías de juventud, y menos con chicos... al menos hasta que aparece Kijima, el chico más normal del mundo que se le declara. Ao intentar amar a Kihima, pero es incapaz... porque por culpa de la influencia de su padre, todas las situaciones las transforma en situaciones eróticas",
+    "author": "Ecchi / Shounen",
+    "goodreads": "https://tioanime.com/anime/midara-na-aochan-wa-benkyou-ga-dekinai"
   },
   {
-    "title": "The Godfather",
-    "author": "Mario Puzo",
-    "goodreads": "https://www.goodreads.com/review/show/3578853694",
-    "mychoice": 1
+    "title": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+    "intro": "La comedia romántica comienza cuando Keiki Kiryu, un estudiante de preparatoria que nunca ha tenido novia, recibe inesperadamente una carta de amor. La carta no incluye remitente, pero si incluye unas bragas blancas. En el proceso de investigar quién podría ser 'la Cenicienta que olvidó sus bragas', Keiki descubre que cada candidata es una pervertida en potencia y están desesperadas porque él participe en su perversión.",
+    "author": "Ecchi / Harem",
+    "goodreads": "https://tioanime.com/anime/kawaikereba-hentai-demo-suki-ni-natte-kuremasu-ka"
   },
   {
-    "title": "The ABC Murders",
-    "author": "Agatha Christie",
-    "intro": "When Alice Asher is murdered in Andover, Hercule Poirot is already on to the clues. Alphabetically speaking, it's one down, twenty-five to go.",
-    "goodreads": "https://www.goodreads.com/book/show/16322.The_A_B_C_Murders"
-  },
-  {
-    "title": "Inside the Minds of Serial Killers: Why They Kill",
-    "author": "Katherine Ramsland",
-    "goodreads": "https://www.goodreads.com/book/show/421369.Inside_the_Minds_of_Serial_Killers"
-  },
-  {
-    "title": "The Boy in the Striped Pajamas",
-    "author": "Jostein Gaarder",
-    "goodreads": "https://www.goodreads.com/book/show/39999.The_Boy_in_the_Striped_Pajamas"
-  },
-  {
-    "title": "Con đường Hồi giáo",
-    "author": "Nguyễn Phương Mai",
-    "goodreads": "https://www.goodreads.com/review/show/3027338701?book_show_action=false&from_review_page=1",
-    "mychoice": 1
-  },
-  {
-    "title": "South of the Border, West of the Sun",
-    "author": "Haruki Murakami",
-    "goodreads": "https://www.goodreads.com/review/show/3009102301"
-  },
-  {
-    "title": "Think like a freak",
-    "author": "Steven D. Levitt",
-    "intro": "The New York Times bestselling Freakonomics changed the way we see the world, exposing the hidden side of just about everything.",
-    "goodreads": "https://www.goodreads.com/review/show/2956625007"
-  },
-  {
-    "title": "Homo Deus: A Brief History of Tomorrow",
-    "author": "Yuval Noah Harari",
-    "intro": "The next book of Harari after his Sapiens.",
-    "goodreads": "https://www.goodreads.com/review/show/2643302498"
-  },
-  {
-    "title": "Oxford thương yêu",
-    "author": "Dương Thụy",
-    "goodreads": "https://www.goodreads.com/book/show/11843183-oxford-th-ng-y-u"
-  },
-  {
-    "title": "Sapiens: A Brief History of Humankind",
-    "author": "Yuval Noah Harari",
-    "intro": "Go through the history of human from the first individuals to walk the earth to the radical.",
-    "goodreads": "https://www.goodreads.com/review/show/2029179832",
-    "mychoice": 1
-  },
-  {
-    "title": "Tâm nguyện cuối cùng",
-    "author": "Mi Lei",
-    "intro": "The newest detective novel from Mi Lei. This time, he focused heavily on the stories of each character. There are still twists but they're quite easy to guess.",
-    "goodreads": "https://www.goodreads.com/review/show/2049756022?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Hiệu ứng chim mồi",
-    "author": "Quốc Khánh, Hạo Nhiên",
-    "intro": "With a simple and witty writing style, the authors show us some useful psychological techniques for business.",
-    "goodreads": "https://www.goodreads.com/review/show/2680538787?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Papillon",
-    "author": "Henri Charrière",
-    "intro": "An awesome adventure of Charrière when he tried to escape from all prisons he is confined.",
-    "goodreads": "https://www.goodreads.com/review/show/2666678371?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Hắn và thằng bạn",
-    "author": "Quốc Khánh, Hạo Nhiên",
-    "goodreads": "https://www.goodreads.com/review/show/2666680825?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Edison as I know him",
-    "author": "Henry Ford, Samuel Crowther",
-    "goodreads": "https://www.goodreads.com/review/show/2666657989?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "goodreads": "https://www.goodreads.com/review/show/2429856389",
-    "mychoice": 1
-  },
-  {
-    "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
-    "author": "Dan Ariely",
-    "goodreads": "https://www.goodreads.com/review/show/2049809738?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Blink: The Power of Thinking Without Thinking",
-    "author": "Malcolm Gladwell",
-    "goodreads": "https://www.goodreads.com/review/show/2792757668"
-  },
-  {
-    "title": "Bức xúc không làm ta vô can",
-    "author": "Đặng Hoàng Giang",
-    "goodreads": "https://www.goodreads.com/review/show/2427641664?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "The Murder of Roger Ackroyd",
-    "author": "Agatha Christie",
-    "goodreads": "https://www.goodreads.com/review/show/2427643959?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Le Petit Nicolas",
-    "author": "Sempé - Goscinny",
-    "goodreads": "https://www.goodreads.com/review/show/2427642128?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "When he comes, close your eyes",
-    "author": "Ding Mo",
-    "goodreads": "https://www.goodreads.com/review/show/2427642679?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Einstein: His Life and Universe",
-    "author": "Walter Isaacson",
-    "goodreads": "https://www.goodreads.com/review/show/2049757982",
-    "mychoice": 1
-  },
-  {
-    "title": "Man's Search for Meaning",
-    "author": "Viktor Emil Frankl",
-    "goodreads": "https://www.goodreads.com/review/show/2120557368"
-  },
-  {
-    "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
-    "author": "Simon Singh",
-    "goodreads": "https://www.goodreads.com/review/show/2048880101",
-    "mychoice": 1
-  },
-  {
-    "title": "How to stop Worrying and start living",
-    "author": "Dale Carnegie",
-    "goodreads": "https://www.goodreads.com/review/show/2047915450?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Lần đầu thấy trăng",
-    "author": "Võ Diệu Thanh",
-    "goodreads": "https://www.goodreads.com/review/show/2029181991?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "The Alchemist",
-    "author": "Paulo Coelho",
-    "goodreads": "https://www.goodreads.com/review/show/2029182902?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "Letters to a young mathematician",
-    "author": "Ian Stewart",
-    "goodreads": "https://www.goodreads.com/review/show/2029183832?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "The Power of Habit: Why We Do What We Do in Life and Business",
-    "author": "Charles Duhigg",
-    "goodreads": "https://www.goodreads.com/review/show/2029184341?book_show_action=false&from_review_page=1",
-    "mychoice": 1
-  },
-  {
-    "title": "Love and Math: The Heart of Hidden Reality",
-    "author": "Edward Frenkel",
-    "goodreads": "https://www.goodreads.com/review/show/2029185191?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "The call of the wild",
-    "author": "Jack London",
-    "goodreads": "https://www.goodreads.com/review/show/2792766531?book_show_action=false&from_review_page=1"
-  },
-  {
-    "title": "White Fang",
-    "author": "Jack London",
-    "goodreads": "https://www.goodreads.com/book/show/43035.White_Fang"
-  },
-  {
-    "title": "The housekeeper and the professor",
-    "author": "Yoko Ogawa",
-    "goodreads": "https://www.goodreads.com/review/show/2792767857"
-  },
-  {
-    "title": "Harry Potter (7 books)",
-    "author": "J.K. Rowling",
-    "goodreads": "https://www.goodreads.com/book/show/862041.Harry_Potter_Series_Box_Set?from_search=true"
+    "title": "ToraDora! / とらドラ!, Toradora!",
+    "intro":"Takasu Ryuuji comienza su segundo año de instituto con mucho animo. Sin embargo, hay una cosa que el odia, y es su mirada, heredada de su padre (un ganster), con lo cual posee una habilidad innata para intimidar a los demás, provocándole esto muchos malentendidos con sus compañeros, no obstante, todo esto va cambiar el primer día de clases, cuando Ryuuji tiene un encontronazo con Aisaka Taiga, la persona mas peligrosa del centro.",
+    "author": "Romance / Escolar",
+    "goodreads": "https://tioanime.com/anime/toradora"
   }
 ]
