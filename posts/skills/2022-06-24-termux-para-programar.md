@@ -63,3 +63,13 @@ cp -Rf {.autostart .aliases .config .colorscheme .fonts .local .scripts .termux 
 # Instalamos Oh-my-zsh y plugins:
 
 🔅 Instalando Oh-My-Zsh / fast-syntax-highlighting / zsh-autosuggestions:
+
+~~~ bash
+git clone https://github.com/robbyrussell/oh-my-zsh $HOME/.oh-my-zsh/
+
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+
+git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-completions $HOME/.oh-my-zsh/custom/plugins/zsh-completions
+~~~
