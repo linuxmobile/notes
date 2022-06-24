@@ -40,5 +40,26 @@ __Estos paquetes son opcionales, pero sin estos la configuración de las screens
 ~~~ bash
 pkg i -y zsh bat exa neofetch termux-api tmux awesomeshot lf inotify-tools neovim 
 ~~~
-
 </div>
+
+# Instalando los dotfiles:
+
+<div class="p-list">
+🔅 Clonamos el repositorio de un genio: 
+
+~~~ bash
+# El genio: xShin
+git clone https://github.com/mayTermux/myTermux
+~~~
+
+🔅 Copiamos los archivos necesarios:
+
+~~~ bash
+cd ~/myTermux
+cp -Rf {.autostart .aliases .config .colorscheme .fonts .local .scripts .termux .tmux.conf .zshrc .oh-my-zsh} ~/
+~~~
+</div>
+
+# Instalamos Oh-my-zsh y plugins:
+
+🔅 Instalando Oh-My-Zsh / fast-syntax-highlighting / zsh-autosuggestions:
