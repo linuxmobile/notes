@@ -14,12 +14,31 @@ Tips / Instalación / Termux
 
 <div class="p-list">
 
-<i>Hace unos días adquirí una tablet con el fin de estudiar programaciónm Fullstack con ella. Hoy me gustaría enseñarles como configurar Termux para poder programar junto con algunas aplicaciones que yo utilizo.</i>
+<i>Hace unos días adquirí una tablet con el fin de estudiar programación Fullstack con ella. Hoy me gustaría enseñarles como configurar Termux para poder programar; junto con algunas aplicaciones que yo utilizo.</i>
 
 ## Instalando lo necesario:
 
 🔅 Para comenzar actualizamos Termux, y configuramos algunas opciones:
 
+~~~ bash
+# Actualizamos los paquetes y termux.
+pkg update && pkg upgrade
 
+# Damos permisos de almacenamiento.
+termux-setup-storage
+
+# Instalamos algunos paquetes necesarios.
+pkg i -y git bc wget
+~~~
+
+🔅 Instalamos algunos paquetes:
+
+::: hsbox (opcional)
+__Estos paquetes son opcionales, pero sin estos la configuración de las screenshots, no te va a funcionar__
+:::
+
+~~~ bash
+pkg i -y zsh bat exa neofetch termux-api tmux awesomeshot lf inotify-tools neovim 
+~~~
 
 </div>
