@@ -12,6 +12,8 @@ Tips / Instalación / Termux
 
 👉 Nota: Para descargar, utilizaremos la versión de F-Droid: [Termux](https://f-droid.org/en/packages/com.termux/)
 
+![rxfetch / neovim / lf](https://i.imgur.com/ckR0M3E.png){:.img-100}
+
 <div class="p-list">
 
 <i>Hace unos días adquirí una tablet con el fin de estudiar programación Fullstack con ella. Hoy me gustaría enseñarles como configurar Termux para poder programar; junto con algunas aplicaciones que yo utilizo.</i>
@@ -93,3 +95,13 @@ git clone https://github.com/NvChad/NvChad $HOME/NvChad
 ~~~ bash
 chsh -s zsh
 ~~~
+
+🔅 Recargamos Termux:
+
+~~~ bash
+termux-reload-settings
+~~~
+
+---
+
+![Archlinux](https://i.imgur.com/s7VpkKA.png){:.img-100}
