@@ -42,7 +42,7 @@ pkg i -y zsh bat exa neofetch termux-api tmux awesomeshot lf inotify-tools neovi
 ~~~
 </div>
 
-# Instalando los dotfiles:
+## Instalando los dotfiles:
 
 <div class="p-list">
 🔅 Clonamos el repositorio de un genio: 
@@ -60,8 +60,9 @@ cp -Rf {.autostart .aliases .config .colorscheme .fonts .local .scripts .termux 
 ~~~
 </div>
 
-# Instalamos Oh-my-zsh y plugins:
+## Instalamos Oh-my-zsh y plugins:
 
+<div class="p-list">
 🔅 Instalando Oh-My-Zsh / fast-syntax-highlighting / zsh-autosuggestions:
 
 ~~~ bash
@@ -72,4 +73,23 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting $HOME/.o
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 git clone https://github.com/zsh-users/zsh-completions $HOME/.oh-my-zsh/custom/plugins/zsh-completions
+~~~
+
+🔅 Clonamos la configuración de tmux:
+
+~~~ bash
+git clone https://github.com/jimeh/tmux-themepack $HOME/.tmux-themepack
+~~~
+
+🔅 Clonamos la configuración de neovim: 
+
+~~~ bash
+git clone https://github.com/NvChad/NvChad $HOME/NvChad
+~~~
+</div>
+
+## Cambiamos la shell a zsh
+
+~~~ bash
+chsh -s zsh
 ~~~
