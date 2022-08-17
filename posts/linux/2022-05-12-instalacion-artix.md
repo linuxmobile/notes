@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Tutorial / Instalación / Artix"
-tags: [Skills, Linux, Shell]
+tags: [Linux, Shell]
 toc: true
 good: true
 noOutdated: true
 icon: linux.svg
+date: 2022-05-12
 keywords: "find with command line in linux ubuntu archlinux elementary os distro distribution files trash owner screen shot screenshot windows partition resize disk drive turn off minimize wm manager kill process .bin .run install shrink disk ipconfig thunar file shortcut hotkey keybind $PATH vim neovim nvim folder mount iso disk extract rsync ssh youtube-dl mp3 installing install instalacion artix artixkeyring"
 ---
 
@@ -219,8 +220,9 @@ nano /etc/hosts
 ::1                     localhost
 127.0.1.1               tuhostname.localdomain tuhostname
 
-#reemplaza "tuhostname" por el hostname que elegiste.
+# reemplaza "tuhostname" por el hostname que elegiste.
 ~~~
+:::
 
 🔅 Instalamos DHCPCD (es el cliente de internet):
 
@@ -296,7 +298,7 @@ sudo pacman -S pipewire pipewire-alsa pipewire-pulse alsa-utils
 sudo pacman -S ntfs-3g dosfstools exfat-utils
 
 # Drivers de intel / amd
-paru -S xf86-video-amdgpu vulkan-radeon mesa-libgl mesa-vdpau libvdpau-va-gl #AMD 
+paru -S xf86-video-amdgpu vulkan-radeon mesa-libgl mesa-vdpau libvdpau-va-gl libva-mesa-driver #AMD 
 paru -S xf86-video-intel mesa-libgl libvdpau-va-gl #Intel
 ~~~
 

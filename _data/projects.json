@@ -5,6 +5,6 @@
     "description": "Un sitio web donde almaceno mis Wallpapers.",
     "url": "https://wallacho.netlify.app/",
     "source": "https://github.com/linuxmobile/wallacho",
-    "tech": ["bootstrap", "html5", "js", "scss", "tensorflow"]
+    "tech": ["bootstrap", "html5", "jekyll", "scss"]
   }
 ]

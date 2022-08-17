@@ -105,6 +105,11 @@
     "fontello": "icon-skill"
   },
   {
+    "name": "Linux",
+    "svg": "/img/cats/linux.svg",
+    "fontello": "icon-linux"
+  },
+  {
     "name": "Gaming & Puzzles",
     "color": "#fda798",
     "svg": "/img/cats/games.svg",
