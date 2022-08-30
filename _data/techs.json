@@ -246,6 +246,12 @@
     "url": "https://scikit-learn.org/"
   },
   {
+    "id": "css",
+    "name": "CSS",
+    "icon": "css.svg",
+    "url": "/css/"
+  },
+  {
     "id": "scss",
     "name": "SCSS",
     "icon": "sass.svg",

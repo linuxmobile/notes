@@ -1,10 +1,42 @@
 [
   {
+    "title": "Linuland",
+    "icon": "🥑",
+    "description": "Un landing page, creado como ejercicio en NUCBA.",
+    "url": "https://github.com/linuxmobile/linuland",
+    "source": "https://linuland.vercel.app/",
+    "tech": ["css", "html5"]
+  },
+  {
+    "title": "Nucbazzapi",
+    "icon": "🍕",
+    "description": "Un ejercicio de NUCBA, de crear una landing para una 'pizzería'.",
+    "url": "https://github.com/linuxmobile/nucbazzapi",
+    "source": "https://nucbazzapi.vercel.app/",
+    "tech": ["css", "html5"]
+  },
+  {
+    "title": "loginland",
+    "icon": "🥑",
+    "description": "Un login page, creado solo con html y css.",
+    "url": "https://github.com/linuxmobile/loginland",
+    "source": "https://loginland.vercel.app/",
+    "tech": ["css", "html5", "js"]
+  },
+  {
+    "title": "LinuLinks",
+    "icon": "🦄",
+    "description": "Un sitio donde pueden encontrar mis links.",
+    "url": "https://github.com/linuxmobile/linulinks",
+    "source": "https://linulinks.vercel.app/",
+    "tech": ["css", "html5"]
+  },
+  {
     "title": "Wallacho",
     "icon": "🚀",
     "description": "Un sitio web donde almaceno mis Wallpapers.",
-    "url": "https://wallacho.netlify.app/",
-    "source": "https://github.com/linuxmobile/wallacho",
-    "tech": ["bootstrap", "html5", "jekyll", "scss"]
+    "url": "https://github.com/linuxmobile/wallacho",
+    "source": "https://wallacho.netlify.app/",
+    "tech": ["css", "html5", "js"]
   }
 ]
