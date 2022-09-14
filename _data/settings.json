@@ -1,10 +1,10 @@
 {
-  "title": "🔥 linuxmobile NOTAS",
+  "title": "🔥 Aprendiendo a Programar",
   "url": "https://aprendiendoaprogramar.netlify.app",
   "domain": ".app",
-  "description": "I failed my way to success!",
+  "description": "Un intento de transimitir lo que alguna vez me costó tanto!",
   "feed": {
-    "subtitle": "I failed my way to success!",
+    "subtitle": "Un intento de transimitir lo que alguna vez me costó tanto!",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://aprendiendoaprogramar.app"

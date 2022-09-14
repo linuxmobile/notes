@@ -1,11 +1,7 @@
 [
   {
-    "name": "Languages",
+    "name": "Lenguajes",
     "list": ["php", "python"]
-  },
-  {
-    "name": "AI & Data",
-    "list": []
   },
   {
     "name": "Frontend",
@@ -24,7 +20,11 @@
     ]
   },
   {
-    "name": "Tools & Services",
+    "name": "Frameworks",
+    "list": []
+  },
+  {
+    "name": "Herramientas",
     "list": ["bash", "git", "linux", "vscode"]
   }
 ]

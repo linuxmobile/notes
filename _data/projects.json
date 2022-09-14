@@ -1,5 +1,13 @@
 [
   {
+    "title": "Prrr | Integrador Diseño Web",
+    "icon": "🦁",
+    "description": "Un landing page, creado para el Integrador de NUCBA.",
+    "url": "https://github.com/linuxmobile/prrr",
+    "source": "https://prrr.vercel.app/",
+    "tech": ["css", "html5"]
+  },
+  {
     "title": "Linuland",
     "icon": "🥑",
     "description": "Un landing page, creado como ejercicio en NUCBA.",
