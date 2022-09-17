@@ -9,6 +9,7 @@ part: 1
 basePartUrl: build-a-website-using-wordpress-and-gatsby
 keywords: "math2it wordpress website ssg static site generator cms tailwind css"
 date: 2022-09-12
+hide: true
 ---
 
 This is a comprehensive post describing step-by-step how I rebuild [the Math2IT site](https://math2it.com/) using **[Wordpress](https://wordpress.org/)** as the backend (for the authors writing the blog posts) and displaying the content via **[Gatsby](https://gatsbyjs.com/)** (a Static Site Generator engine) via **GraphQL**. The styles are the same as in version 3, but instead of **Bootstrap** this time I am using **[TailwindCSS](https://tailwindcss.com/)**.

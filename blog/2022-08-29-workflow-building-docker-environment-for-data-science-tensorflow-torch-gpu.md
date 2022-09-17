@@ -7,6 +7,7 @@ toc: true
 math: false
 keywords: "cuda gpu nvidia cudnn versions tensorflow torch pytorch docker-compose docker iamges container pip zsh bash"
 date: 2022-08-30
+hide: true
 ---
 
 A notable point in this post is the installation of **TensorFlow 2.9.1** (TF) with **CUDA 11.3**, which is not officially supported!

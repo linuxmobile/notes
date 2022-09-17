@@ -7,6 +7,7 @@ toc: true
 math: false
 keywords: "difference blog note post type"
 date: 2022-08-10
+hide: true
 ---
 
 Notes are for reading later and quickly remembering what you read/learned. Blog posts are for explaining a topic clearly and completely.

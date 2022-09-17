@@ -8,6 +8,7 @@ math: true
 keywords: "me for me only customize admin panel edition customize edit this site box font blocks for me only dinhanhthi dinh anh thi custom size emoji dinh anh thi"
 noOutdated: true
 date: 2022-06-25
+private: true
 ---
 
 This post is for me only. It contains shortcodes to create this website.

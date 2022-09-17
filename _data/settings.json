@@ -1,10 +1,10 @@
 {
-  "title": "🔥 Aprendiendo a Programar",
+  "title": "🔥 Aprendiendo a Programar | Braian A. Diez",
   "url": "https://aprendiendoaprogramar.netlify.app",
   "domain": ".app",
-  "description": "Un intento de transimitir lo que alguna vez me costó tanto!",
+  "description": "Lleva mucho tiempo aprender a programar, y aún más encontrar buen contenido en español. Acá te dejo mis notas sobre programación, linux, tecnología!",
   "feed": {
-    "subtitle": "Un intento de transimitir lo que alguna vez me costó tanto!",
+    "subtitle": "Lleva mucho tiempo aprender a programar, y aún más encontrar buen contenido en español. Acá te dejo mis notas sobre programación, linux, tecnología!",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://aprendiendoaprogramar.app"

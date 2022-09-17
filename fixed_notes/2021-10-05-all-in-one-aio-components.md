@@ -8,6 +8,7 @@ icon: "/img_src/header/aio.svg"
 keywords: "AIO all in one components post types boxes hide show hide/show linke url insert images 11ty eleventy topics all topics subjects code blocks boxes math equations"
 noOutdated: true
 date: 2022-05-13
+private: true
 ---
 
 This note is used to show the compoents I created to use in this site. It's for me only. I use it as a reference when I wanna create some components for the notes.
