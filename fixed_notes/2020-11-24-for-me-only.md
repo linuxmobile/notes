@@ -7,13 +7,12 @@ icon: "customize.svg"
 math: true
 keywords: "me for me only customize admin panel edition customize edit this site box font blocks for me only dinhanhthi dinh anh thi custom size emoji dinh anh thi"
 noOutdated: true
-date: 2022-06-25
-private: true
+date: 2022-09-13
 ---
 
 This post is for me only. It contains shortcodes to create this website.
 
-👉  Note: [11ty](/11ty-nunjucks/).
+👉 Note: [11ty](/11ty-nunjucks/).
 👉 Note: [All in one components](/all-in-one-aio-components/).
 
 ## Frontmatter
@@ -42,6 +41,10 @@ good: true # (on hold) the note is good written
 noOutdated: true # this kind of post doesn't have "outdated" warning box
 customJS: ["toggle-notes.js"] # for custom js files which are stored in _includes/scripts/
 noHeadingNumbering: true # if you don't want to number headings (default, all blog posts have this)
+hideComment: true # Hide the comment section
+part: 2 # if this post has many parts
+basePartUrl: build-a-website-using-wordpress-and-gatsby # the base url of the path
+partname: "Setting up" # the name of the part
 ```
 
 ## For blog posts
@@ -50,7 +53,7 @@ noHeadingNumbering: true # if you don't want to number headings (default, all bl
 
 Using Typora and configure its *Preferences/Imgage* as
 
-- When insert, *Copy image to custom folder* (choose `notes/img_blog/${filename}`)
+- When insert, *Copy image to custom folder* (choose `notes/img_post/${filename}`)
 - Tick "Apply above rules to local images", "Apply ... online images", "Use relative path if possible
 - **Local image**: using the button in Typora.
 - **Online image**: just type `![description]()` and then paste the url inside `()`.

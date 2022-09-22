@@ -7,8 +7,9 @@ math: true
 icon: "/img_src/header/aio.svg"
 keywords: "AIO all in one components post types boxes hide show hide/show linke url insert images 11ty eleventy topics all topics subjects code blocks boxes math equations"
 noOutdated: true
-date: 2022-05-13
-private: true
+notfull: false
+lowQuality: false
+date: 2022-07-18
 ---
 
 This note is used to show the compoents I created to use in this site. It's for me only. I use it as a reference when I wanna create some components for the notes.
@@ -76,6 +77,24 @@ Unordered list,
   2. This is a nested item.
 - This is an item
 
+::: hsbox List inside a box
+
+- This is an item
+  - This is an item
+  - This is an item
+- This is an item
+
+:::
+
+::: warning
+
+- This is an item
+  - This is an item
+  - This is an item
+- This is an item
+
+:::
+
 ### Two columns list
 
 ::: col-2-list
@@ -95,57 +114,33 @@ Content
 :::
 
 ::: success
-**Success**:The content with a [link inside](#)!
+**Success**: The content with a [link inside](#)!
 ::: hsbox Hide / Show box
 Content
 :::
 
+::: info
+**Info**: The content with a [link inside](#)!
+:::
+
 <div class="info">
 
-**Info**: This one uses directly html markups.
+**Info**: This one uses directly html markups and doesn't have any icon like the others.
 
 ::: hsbox Hide / Show box inside
 Content
 :::
 </div>
 
+::: tip
+**Tip**: The content with a [link inside](#)!
+:::
+
 ::: danger
 **Danger**: The content with a [link inside](#)!
 ::: hsbox Hide / Show box inside
 Content
 :::
-
-### Alert boxes with icons
-
-::: danger
-{% icon "danger" %} This uses shortcode `{% raw %}{% icon "danger" %}{% endraw %}`.
-:::
-
-::: info
-{% icon "info" %} This uses shortcode `{% raw %}{% icon "info" %}{% endraw %}`.
-:::
-
-::: info
-{% icon "draft" %} This uses shortcode `{% raw %}{% icon "draft" %}{% endraw %}`.
-:::
-
-::: info
-{% icon "idea" %} This uses shortcode `{% raw %}{% icon "idea" %}{% endraw %}`.
-:::
-
-::: warning
-{% icon "warning" %} This uses shortcode `{% raw %}{% icon "warning" %}{% endraw %}`. I wanna make a very long sentence to see how this icon will be placed in the paragraph.
-:::
-
-::: success
-{% icon "success" %} This uses shortcode `{% raw %}{% icon "success" %}{% endraw %}`.
-:::
-
-::: info
-{% icon "time" %} This uses shortcode `{% raw %}{% icon "time" %}{% endraw %}`.
-:::
-
-Check line `eleventyConfig.addShortcode("icon"` in `.eleventy.js` for more icon names.
 
 ### Inside other components
 
@@ -331,7 +326,7 @@ $$
 
 ### Inline codes without background
 
-
+Inline codes without background: `code`{:.no-bg}, without border `code`{:.no-border} or both `code`{:.no-bg .no-border}.
 
 ### Raw codes
 
@@ -515,6 +510,7 @@ print(x)
 1. The first item
     ``` bash
     # Codes
+    1+1
     ```
 
     ``` bash
@@ -673,7 +669,7 @@ Box > List > Box,
 
 Inside a list,
 
-- We don't need to use directly `<div>`, we can use `:::`!
+- We don't have to use directly `<div>`, we can use `:::`!
 
     ::: hsbox Hide / Show box
     Content
@@ -690,6 +686,12 @@ Inside a list,
 - Item
 
 ## Insert figures
+
+### Insert inline icons
+
+Available icons: {% icon "warning" %}, {% icon "info" %}, {% icon "danger" %}, {% icon "success" %}, {% icon "draft" %}, {% icon "idea" %}, {% icon "time" %}.
+
+Check line `eleventyConfig.addShortcode("icon"` in `.eleventy.js` for more icon names.
 
 ### Different sizes
 
