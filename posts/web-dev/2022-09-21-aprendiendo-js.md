@@ -2,7 +2,7 @@
 layout: post
 title: "Aprendiendo Javascript desde Cero | NUCBA"
 tags: [Web Dev, Javascript, Frontend]
-toc: false
+toc: true
 good: false
 notfull: 1
 icon: js.png
@@ -14,7 +14,7 @@ Tips / Consejos / Javascript
 
 👉 Nota: [Documentación Javascript](https://es.javascript.info/)
 
-## Introducción a JS:
+## Introducción a JS
 
 <div class="p-list">
 
@@ -58,7 +58,7 @@ alert('hola');
 
 </div>
 
-## Fundamentos de Javascript:
+## Fundamentos de Javascript
 
 <div class="p-list">
 
@@ -99,7 +99,7 @@ myBirthday = '1996-10-22'; // ¡error, no se puede reasignar la constante!
 
 </div>
 
-## Interacciones: 
+## Interacciones
 
 <div class="p-list">
 
@@ -127,7 +127,7 @@ console.log( isNucbaBoss ); // true si se pulsa OK
 
 </div>
 
-## Condicionales:
+## Condicionales
 
 <div class="p-list">
 
@@ -168,6 +168,24 @@ alert(accessAllowed);
 
 ~~~ js 
 let accessAllowed = (age > 18) ? true : false;
+~~~
+
+</div>
+
+## Bucles | For y While
+
+<div class="p-list">
+
+<i>Los bucles son para repetir acciones.</i>
+
+🔅 While (mientras):
+
+~~~ js
+let i = 0; // Declaramos una variable.
+while (i < 3) { 
+  console.log( i ); // muestra 0, luego 1, luego 2..
+  i++;
+}
 ~~~
 
 </div>
