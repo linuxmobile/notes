@@ -6,7 +6,7 @@ toc: true
 good: false
 notfull: 1
 icon: js.png
-date: 2022-09-21
+date: 2022-10-03
 keywords: "javascript learning aprendiendo desde cero js jscript typerscript react frontend learn web developer desarrollador desarrollo programador programar aprender reactjs tsx noob nuevo"
 ---
 
@@ -187,5 +187,9 @@ while (i < 3) {
   i++;
 }
 ~~~
+
+🔅 For:
+
+
 
 </div>

@@ -1,53 +1,65 @@
 [
+  
+  {
+    "name": "Blog",
+    "icon": "blog.svg",
+    "fontello": "icon-feather",
+    "color": "#50c06a",
+    "showInNoteToc": false,
+    "hideFromTopics": true
+  },
   {
     "name": "Angular",
     "color": "#C31C2F",
-    "svg": "/img/cats/ng.svg",
-    "fontello": "icon-ng"
-  },
-  {
-    "name": "Blog",
-    "svg": "/img/cats/blog.svg",
-    "fontello": "icon-feather",
-    "color": "#50c06a"
+    "icon": "ng.svg",
+    "fontello": "icon-ng",
+    "showInNoteToc": true
   },
   {
     "name": "Frontend",
-    "svg": "/img/cats/frontend.svg",
+    "icon": "frontend.svg",
     "fontello": "icon-frontend",
-    "color": "#50c06a"
+    "color": "#50c06a",
+    "showInNoteToc": true
   },
   {
     "name": "JavaScript",
-    "svg": "/img/cats/js.svg",
-    "fontello": "icon-js-solid"
+    "icon": "js.svg",
+    "fontello": "icon-js-solid",
+    "showInNoteToc": true
   },
   {
     "name": "Linux",
-    "svg": "/img/cats/linux.svg",
-    "fontello": "icon-linux"
+    "icon": "linux.svg",
+    "fontello": "icon-linux",
+    "showInNoteToc": true
   },
   {
     "name": "Others",
     "color": "#00cec9",
-    "svg": "/img/cats/others.svg",
-    "fontello": "icon-others-solid"
+    "icon": "others.svg",
+    "fontello": "icon-others-solid",
+    "hideFromTopics": true,
+    "showInNoteToc": true
   },
   {
     "name": "Python",
     "color": "#a0ffa0",
-    "svg": "/img/cats/python.svg",
-    "fontello": "icon-python"
+    "icon": "python.svg",
+    "fontello": "icon-python",
+    "showInNoteToc": true
   },
   {
     "name": "Skills",
     "color": "#fda798",
-    "svg": "/img/cats/skills.svg",
-    "fontello": "icon-skill"
+    "icon": "skills.svg",
+    "fontello": "icon-skill",
+    "showInNoteToc": true
   },
   {
     "name": "Web Dev",
-    "svg": "/img/cats/web-dev.svg",
-    "fontello": "icon-web-dev"
+    "icon": "web-dev.svg",
+    "fontello": "icon-web-dev",
+    "showInNoteToc": true
   }
 ]
