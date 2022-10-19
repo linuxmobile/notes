@@ -8,7 +8,7 @@ module.exports = {
 	  const durationInDays =
 		(new Date().getTime() - date.getTime()) / (1000 * 60 * 60 * 24);
 	  if (durationInDays < 1) {
-		if (format === "upToDay") return "today";
+		if (format === "upToDay") return "hoy";
 		if (format === "upToMinutes") {
 		  const durationInHours = durationInDays * 24;
 		  if (durationInHours < 1) {
@@ -19,7 +19,7 @@ module.exports = {
 		  } else return `${Math.round(durationInHours)} hours ago`;
 		}
 	  } else if (durationInDays < 2) {
-		return "yesterday";
+		return "ayer";
 	  } else if (durationInDays < 30) {
 		return Math.round(durationInDays) + " days ago";
 	  } else if (durationInDays < 365) {

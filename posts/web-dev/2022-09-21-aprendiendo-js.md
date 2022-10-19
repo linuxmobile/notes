@@ -6,7 +6,7 @@ toc: true
 good: false
 notfull: 1
 icon: js.png
-date: 2022-10-03
+date: 2022-10-13
 keywords: "javascript learning aprendiendo desde cero js jscript typerscript react frontend learn web developer desarrollador desarrollo programador programar aprender reactjs tsx noob nuevo"
 ---
 
@@ -190,6 +190,25 @@ while (i < 3) {
 
 🔅 For:
 
+<i>For es más complejo que While, pero es el más usado. </i>
 
+~~~ js 
+// Declaramos la variable personas...
+let personas = ['Santiago', 'Juan', 'David', 'Angel', 'Franco', 'Camila'];
+
+// Y con for recorremos los nombres de personas
+// hasta la última letra. (Santiago tiene 7 carácteres (0-7))
+for (let index = 0; index < personas.length; index++) {
+    personas[index] == 'Santiago'
+    'Santiago'.length - 1 == 7
+    'Santiago'[7] == 'o'
+
+    // Si la última letra es la L. Entonces para de contar.
+    if(personas[index][personas[index].length-1] == 'l'){
+        break;
+    }
+    console.log('Hola ' +  personas[index]);
+}
+~~~
 
 </div>
