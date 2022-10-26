@@ -16,7 +16,7 @@ date: 2022-10-19
 
 ### Este es el HTML:
 
-![html](https://i.imgur.com/Bbtnget.png){:.img-100}
+![html](https://i.imgur.com/1wrxWVS.png){:.img-100}
 
 ## Analizando el HTML:
 
@@ -38,9 +38,8 @@ date: 2022-10-19
 // Seleccionamos los elementos del DOM
 // y lo añadimos a una variable.
 const input = document.querySelector(".input-text");
-const addBtn = document.querySelector(".add-btn");
 const addForm = document.querySelector(".add-form");
-const tasksList = document.querySelector(".tasks-list"); // <- <ul></ul>
+const tasksList = document.querySelector(".tasks-list");
 const deleteBtn = document.querySelector(".deleteAll-btn");
 ~~~
 
@@ -53,8 +52,9 @@ let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 // Creamos una funcionan para "crear" los elementos en el LS.
 // Utilizamos stringify para convertirlo a 'strings'.
-const saveLocalStorage = tasksList => { 
-    localStorage.setItem('tasks', JSON.stringify(tasksList));
+const saveLocalStorage = (tasksList) => {
+  localStorage.setItem("tasks", JSON.stringify(tasksList));
+};
 ~~~
 
 
@@ -63,8 +63,8 @@ const saveLocalStorage = tasksList => {
 ~~~ js
 // Creamos una función que recibe la tarea y la renderiza
 // en HTML de manera individual.
-const createTask = (task) => {
-    `<li>${task.name}<img class="delete-btn" src="./img/delete.svg" data-id=${task.taskId}></li>`
+const createTask = (task) =>
+  `<li>${task.name}<img class="delete-btn" src="./img/delete.svg" alt="boton de borrar" data-name="${task.name}"></li>`;
 }
 ~~~
 
@@ -74,9 +74,9 @@ const createTask = (task) => {
 // La función renderTaskList crea los elementos en el html,
 // .map recorre y devuelve un nuevo <li></li> en cada caso.
 // .join, utilizamos join para evitar la "coma" entre cada elemento del array.
-const renderTaskList = (todoList) => {
-    tasksList.innerHTML = todoList.map((task) => createTask(task)).join('');
-}
+const renderTasksList = (todoList) => {
+  tasksList.innerHTML = todoList.map((task) => createTask(task)).join("");
+};
 ~~~
 
 🔅 Creamos una función para que el botón para borrar las listas aparezca o desaparezca dependiendo de si hay contenido o no, utilizando __lenght{% ref "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/length" %}__.
@@ -84,12 +84,12 @@ const renderTaskList = (todoList) => {
 ~~~ js
 // .length recorre taskList y si no hay nada
 // oculta el botón, utilizando la clase hidden.
-const hideDeleteAll = tasksList => {
+const hideDeleteAll = (tasksList) => {
   if (!tasksList.length) {
-    deleteBtn.classList.add('hidden');
-    return; // Para que no se siga ejecutando
+    deleteBtn.classList.add("hidden");
+    return; /*Para que no se siga ejecutando*/
   }
-  deleteBtn.classList.remove('hidden');
+  deleteBtn.classList.remove("hidden");
 };
 ~~~
 
@@ -107,22 +107,21 @@ const hideDeleteAll = tasksList => {
 8. Y verificamos si el botón de "borrar tareas" tiene que ocultarse o no.
 
 ~~~ js
-const addTask = e => {
+const addTask = (e) => {
   e.preventDefault();
-  const taskName = input.value.trim();
+  const taskName = input.value.trim().replace(/\s+/g, " ");
   if (!taskName.length) {
-    alert('Por favor, ingrese una tarea');
+    alert("Por favor, ingrese una tarea");
     return; /*Para que no se siga ejecutando*/
   } else if (
-    tasks.some(task => task.name.toLowerCase() === taskName.toLowerCase())
+    tasks.some((task) => task.name.toLowerCase() === taskName.toLowerCase())
   ) {
-    alert('Ya existe una tarea con ese nombre');
+    alert("Ya existe una tarea con ese nombre");
     return; /*Para que no se siga ejecutando*/
   }
 
-  /* El id será la longitud del array de tareas actual mas uno.*/
-  tasks = [...tasks, { name: taskName, taskId: tasks.length + 1 }];
-  input.value = '';
+  tasks = [...tasks, { name: taskName }];
+  input.value = "";
   renderTasksList(tasks);
   saveLocalStorage(tasks);
   hideDeleteAll(tasks);
@@ -138,10 +137,10 @@ const addTask = e => {
 // pasamos a número el id del elemento (<li>).
 // el array "tasks" usamos filter para borrar 
 // el que tenga un id distinto.
-const removeTask = e => {
-  if (!e.target.classList.contains('delete-btn')) return;
-  const filterId = Number(e.target.dataset.id);
-  tasks = tasks.filter(task => task.taskId !== filterId);
+const removeTask = (e) => {
+  if (!e.target.classList.contains("delete-btn")) return;
+  const filterName = e.target.dataset.name;
+  tasks = tasks.filter((task) => task.name !== filterName);
   renderTasksList(tasks);
   saveLocalStorage(tasks);
   hideDeleteAll(tasks);
@@ -165,9 +164,9 @@ const removeAll = () => {
 ~~~ js
 const init = () => {
   renderTasksList(tasks);
-  addForm.addEventListener('submit', addTask);
-  tasksList.addEventListener('click', removeTask);
-  deleteBtn.addEventListener('click', removeAll);
+  addForm.addEventListener("submit", addTask);
+  tasksList.addEventListener("click", removeTask);
+  deleteBtn.addEventListener("click", removeAll);
   hideDeleteAll(tasks);
 };
 
