@@ -1,5 +1,11 @@
 [
   {
+    "id": "astro",
+    "name": "Astro",
+    "icon": "logomark-light.svg",
+    "url": "https://astro.build/"
+  },
+  {
     "id": "airflow",
     "name": "Airflow",
     "icon": "airflow.svg",

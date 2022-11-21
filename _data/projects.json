@@ -1,4 +1,11 @@
-[
+[{
+  "title": "Pokelinux | Ejercicio de NUCBA",
+  "icon": "🦁",
+  "description": "Una pokedex, utilizando la pokeapi. Uno de los ejercicios para NUCBA.",
+  "url": "https://github.com/linuxmobile/pokelinux",
+  "source": "https://pokelinux.vercel.app/",
+  "tech": ["astro", "trailwindcss", "js"]
+},
   {
     "title": "Prrr | Integrador Diseño Web",
     "icon": "🦁",

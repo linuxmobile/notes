@@ -10,7 +10,7 @@
       "html5",
       "jekyll",
       "css",
-      "wordpress"
+      "js"
     ]
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "name": "Frameworks",
-    "list": []
+    "list": ["astro", "tailwindcss"]
   },
   {
     "name": "Herramientas",
